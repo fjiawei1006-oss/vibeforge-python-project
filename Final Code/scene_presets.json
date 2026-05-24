@@ -1,0 +1,60 @@
+{
+  "scenes": {
+    "chase": {
+      "bpm_range": [140, 170],
+      "scale_mode": "minor",
+      "preferred_intervals": [3, 4, 5, 7],
+      "contour": "zigzag",
+      "note_density": "high",
+      "velocity_range": [90, 127]
+    },
+    "romance": {
+      "bpm_range": [60, 80],
+      "scale_mode": "major",
+      "preferred_intervals": [2, 4, 5],
+      "contour": "arch",
+      "note_density": "medium",
+      "velocity_range": [40, 80]
+    },
+    "horror": {
+      "bpm_range": [50, 80],
+      "scale_mode": "blues",
+      "preferred_intervals": [1, 6, 7],
+      "contour": "descending",
+      "note_density": "low",
+      "velocity_range": [20, 100]
+    },
+    "epic": {
+      "bpm_range": [100, 130],
+      "scale_mode": "major",
+      "preferred_intervals": [5, 7, 4],
+      "contour": "ascending",
+      "note_density": "medium",
+      "velocity_range": [100, 127]
+    },
+    "melancholy": {
+      "bpm_range": [55, 75],
+      "scale_mode": "minor",
+      "preferred_intervals": [2, 3, 5],
+      "contour": "descending",
+      "note_density": "low",
+      "velocity_range": [30, 70]
+    },
+    "playful": {
+      "bpm_range": [120, 150],
+      "scale_mode": "pentatonic",
+      "preferred_intervals": [2, 3, 4],
+      "contour": "zigzag",
+      "note_density": "high",
+      "velocity_range": [70, 110]
+    }
+  },
+  "modifiers": {
+    "night": { "velocity_adjust": -20, "bpm_adjust": -10, "octave_adjust": -1 },
+    "rain": { "note_density": "high", "velocity_adjust": -10 },
+    "fast": { "bpm_adjust": 30 },
+    "slow": { "bpm_adjust": -25 },
+    "eastern": { "scale_mode": "pentatonic" },
+    "intense": { "velocity_adjust": 30, "bpm_adjust": 15 }
+  }
+}
